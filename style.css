@@ -1,0 +1,13 @@
+#container {
+    background-color: aqua;
+}
+#title {
+    border: solid;
+}
+
+form {
+    background-color: beige;
+}
+form ul {
+    list-style-type: none;
+}
