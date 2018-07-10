@@ -1,13 +1,25 @@
 #container {
-    background-color: aqua;
-}
-#title {
-    border: solid;
+  height: 100%;
+  width: 330px;
 }
 
 form {
-    background-color: beige;
+  background-color: beige;
+  border-radius: 4px;
+  border: 1px solid gray;
 }
 form ul {
-    list-style-type: none;
+  list-style-type: none;
 }
+form ul li {
+  margin-top: 5%;
+}
+form button {
+  height: 18px;
+  width: 30px;
+  background-color: blue;
+  margin-left: 10%;
+  margin-bottom: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

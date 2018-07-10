@@ -9,16 +9,40 @@
 </head>
 <body>
     <div id="container">
-    <div id="title">Survey Form</div>
-    <div id="description">This is a survey form</div>
+    <div id="title"> <h1>Join Our Group<h1></div>
+    
     <form action="" id="survey-form">
+
+        <div id="description">
+            <h2>Please Up To Receive More Information About Our Organization</h2>
+        </div>
         <ul>
 
-            <li>Name: <input type="text" value="Enter Your Name" id="name"></li>
-            <li>Email:<input type="text" value="Enter Your Email"id="email"></li>
-            <li>Number:<input type="text" value="Enter Your Age" id="number"></li>
-        
+            <li>Name: <input type="text" value="Enter Your Name" id="name"></li> <label id="name-label"></label>
+            <li>Email: <input type="text" value="Enter Your Email"id="email"></li> <label id="email-label"></label>
+            <li>Number: <input type="text" value="Enter Your Age" id="number"></li> <label id="number-label" ></label>
         </ul>
+        
+        <div>
+            <h2>Are You Interested in information on our Annual Meeting?</h2>
+            <select>
+                <option >Yes</option>
+                <option >No</option>
+            </select>
+        </div>
+        <h2>Please select your interests. </h2>
+        <ul>
+            <li><input type="radio" value="Updates">Special Offers</li>
+            <li><input type="radio" value="Updates"> Extra News Updates</li>
+            <li><input type="radio" value="alerts">Action Alerts</li>
+        </ul>
+          <div>
+            <input type="text" value="Comments or Suggestions">
+          </div>
+          <div>
+              <button id="submit"value="submit"></button>
+          </div>
+
     </form>
 </div>
 </body>
