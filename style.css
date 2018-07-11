@@ -1,13 +1,30 @@
 #container {
   height: 100%;
-  width: 330px;
+  width: 400px;
+  margin: 5px;
 }
 
-form {
-  background-color: beige;
-  border-radius: 4px;
-  border: 1px solid gray;
+#description {
+  background-color: white;
 }
+
+#title {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.section-container {
+  border-radius: 2px;
+  border: 1px solid gray;
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+  margin-top: 15%;
+}
+
 form ul {
   list-style-type: none;
 }
@@ -15,11 +32,15 @@ form ul li {
   margin-top: 5%;
 }
 form button {
-  height: 18px;
-  width: 30px;
+  height: 35px;
+  width: 100px;
+  text-align: center;
   background-color: blue;
-  margin-left: 10%;
+  margin-left: 30%;
+  margin-top: 25px;
   margin-bottom: 25px;
+  padding: 5px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

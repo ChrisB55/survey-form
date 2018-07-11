@@ -9,38 +9,45 @@
 </head>
 <body>
     <div id="container">
-    <div id="title"> <h1>Join Our Group<h1></div>
+    <div id="title"> <h2>Join Our Group</h2></div>
     
     <form action="" id="survey-form">
 
         <div id="description">
-            <h2>Please Up To Receive More Information About Our Organization</h2>
+            <h4>Please sign up to receive more information about our organization</h4>
         </div>
-        <ul>
+
+        <div class="section-container">
+        <h4>1: Personal Info</h4>
+            <ul>
 
             <li>Name: <input type="text" value="Enter Your Name" id="name"></li> <label id="name-label"></label>
             <li>Email: <input type="text" value="Enter Your Email"id="email"></li> <label id="email-label"></label>
             <li>Number: <input type="text" value="Enter Your Age" id="number"></li> <label id="number-label" ></label>
         </ul>
-        
-        <div>
-            <h2>Are You Interested in information on our Annual Meeting?</h2>
+        </div>
+        <div class="section-container">
+            <h4>2: Are You Interested in information on our Annual Meeting?</h4>
             <select>
                 <option >Yes</option>
                 <option >No</option>
             </select>
         </div>
-        <h2>Please select your interests. </h2>
+        <div class="section-container">
+        <h4>3: Please select your interests. </h4>
         <ul>
             <li><input type="radio" value="Updates">Special Offers</li>
             <li><input type="radio" value="Updates"> Extra News Updates</li>
             <li><input type="radio" value="alerts">Action Alerts</li>
         </ul>
-          <div>
+    </div>
+          <div class="section-container">
+            <h4>4: Comments</h4>
             <input type="text" value="Comments or Suggestions">
           </div>
-          <div>
-              <button id="submit"value="submit"></button>
+
+          <div class="section-container">
+              <button id="submit">Submit</button>
           </div>
 
     </form>
