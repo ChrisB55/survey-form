@@ -38,11 +38,13 @@ form {
     list-style-type: none;
         li {
             margin-top: 5%;
+            
         }
     }
     
     select {
         margin:25px;
+        align-content: center;
     }
 
     input[id="comment"] {
@@ -66,3 +68,104 @@ form {
     }
 }
 
+@media only screen and (min-width: 768px)
+{
+    
+#container {
+    
+    height: 100%;
+    width: 700px;
+    margin: 5px;
+    margin-left:9%;
+    font-size: 1.5em;
+    
+}
+
+#title {
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 32px;
+    font-family: $font-stack;
+}
+
+form {
+    .section-container {
+        align-content: center;
+        border-radius: 2px;
+        border: 1px solid gray;
+        background-color: white;
+        box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+        margin-top: 15%;
+    }
+    h4 {
+        text-align: center;
+        color: green;
+        font-size: 1.5em;
+    }
+
+    ul {
+        list-style-type: none;
+            li {
+                margin-top: 5%;
+                margin-left:10%;
+                font-size: 1.5em
+            }
+        }
+        
+        select {
+            margin:25px;
+            align-content: center;
+        }
+    
+        input[id="comment"] {
+            width:90%;
+            height: 140px;
+            margin-left: 5%;
+            margin-top:0px;
+            margin-bottom: 5%;
+        }
+        button {
+            height: 35px;
+            width: 100px;
+            text-align: center;
+            background-color: green;
+            margin-left: 30%;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            padding: 5px;
+            color:white;
+    
+        }
+}
+
+
+}
+@media only screen and (min-width: 992px) {
+
+        #container {
+            
+            height: 100%;
+            width: 960px;
+            margin: 5px;
+            margin-left:9%;
+            font-size: 1.5em;
+            
+        }
+        
+        #title {
+            width: 100%;
+            height: 50px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 32px;
+            font-family: $font-stack;
+        }
+        
+
+        }
