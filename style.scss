@@ -105,6 +105,7 @@ form {
         text-align: center;
         color: green;
         font-size: 1.5em;
+        margin-bottom: 2px;
     }
 
     ul {
@@ -114,7 +115,12 @@ form {
                 margin-left:10%;
                 font-size: 1.5em
             }
+            input[type="text"] {
+                height: 50px;
+                width: 500px;
+            } 
         }
+    
         
         select {
             margin:25px;
@@ -123,17 +129,19 @@ form {
     
         input[id="comment"] {
             width:90%;
-            height: 140px;
+            height: 150px;
             margin-left: 5%;
-            margin-top:0px;
+            margin-top:1px;
             margin-bottom: 5%;
         }
         button {
-            height: 35px;
-            width: 100px;
+            height: 50px;
+            width: 35%;
             text-align: center;
+            font-size: 1.2em;
             background-color: green;
             margin-left: 30%;
+            margin-right:30%;
             margin-top: 25px;
             margin-bottom: 25px;
             padding: 5px;
@@ -145,7 +153,8 @@ form {
 
 }
 @media only screen and (min-width: 992px) {
-
+    
+    
         #container {
             
             height: 100%;
@@ -167,5 +176,64 @@ form {
             font-family: $font-stack;
         }
         
-
+        form {
+            .section-container {
+                align-content: center;
+                border-radius: 2px;
+                border: 1px solid gray;
+                background-color: white;
+                box-shadow: 4px 4px 4px 4px rgba(0,0,0,.3);
+                margin-top: 15%;
+            }
+            h4 {
+                text-align: center;
+                color: green;
+                font-size: 1.5em;
+                margin-bottom: 2px;
+            }
+        
+            ul {
+                
+                    li {
+                        margin-top: 5%;
+                        margin-left:5%;
+                        font-size: 1.3em;
+                        display: inline-block;
+                    }
+                    input[type="text"] {
+                        height: 50px;
+                        width: 500px;
+                    } 
+                }
+            
+                
+                select {
+                    margin:25px;
+                    align-content: center;
+                }
+            
+                input[id="comment"] {
+                    width:90%;
+                    height: 150px;
+                    margin-left: 5%;
+                    margin-top:1px;
+                    margin-bottom: 5%;
+                }
+                button {
+                    height: 50px;
+                    width: 35%;
+                    text-align: center;
+                    font-size: 1.2em;
+                    background-color: red;
+                    margin-left: 30%;
+                    margin-right:30%;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                    padding: 5px;
+                    color:white;
+            
+                }
+        }
+        
+        
         }
