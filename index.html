@@ -10,21 +10,21 @@
 </head>
 <body>
     <div id="container">
-    <div id="title"> <h2>Join Our Group</h2>
-    </div>
+    <h1 id="title"> Join Our Group
+    </h1>
     <form action="" id="survey-form">
 
-        <div id="description">
-            <h4>Please sign up to receive more information about our organization</h4>
-        </div>
+        <p id="description">
+            Please sign up to receive more information about our organization.
+        </p>
 
         <div class="section-container">
         <h4>1: Personal Info.</h4>
             <ul>
 
-            <li>Name: <input type="text" value="Enter Your Name" id="name"></li> <label id="name-label"></label>
-            <li>Email: <input type="text" value="Enter Your Email" id="email"></li> <label id="email-label"></label>
-            <li>Number: <input type="text" value="Enter Your Age" id="number"></li> <label id="number-label" ></label>
+            <li>Name: <input autofocus type="text"  id="name"  placeholder="Enter your name.." required></li> 
+            <li>Email: <input autofocus type="email" id="email"  placeholder="Enter your email.." required> </li>
+            <li>Number: <input autofocus type="number" id="number" placeholder="Enter Your Age" min="1" max="125"  required> </li> 
         </ul>
         </div>
         <div class="section-container">
