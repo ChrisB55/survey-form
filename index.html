@@ -22,31 +22,49 @@
         <h4>1: Personal Info.</h4>
             <ul>
 
-            <li>Name: <input autofocus type="text"  id="name"  placeholder="Enter your name.." required></li> 
-            <li>Email: <input autofocus type="email" id="email"  placeholder="Enter your email.." required> </li>
-            <li>Number: <input autofocus type="number" id="number" placeholder="Enter Your Age" min="1" max="125"  required> </li> 
+            <li> <label id="name-label" for="email">Name: </label><input autofocus type="text"  id="name"  placeholder="Enter your name.." required></li> 
+            <li><label id="email-label" for="email">Email: </label><input autofocus type="email" id="email"  placeholder="Enter your email.." required> </li>
+            <li><label id="number-label" for="email"> Number: </label> <input autofocus type="number" id="number" placeholder="Enter Your Age" min="1" max="125"  required> </li> 
         </ul>
         </div>
         <div class="section-container">
             <h4>2: Are You Interested in information on our Annual Meeting?</h4>
-            <select>
+            <select id="dropdown">
                 <option >Yes</option>
                 <option >No</option>
             </select>
         </div>
         <div class="section-container">
-        <h4>3: Please select your interests. </h4>
+        <h4>3: Will You Invite Your Friends?</h4>
+        
         <ul>
-            <li><input type="radio" value="Updates"> Special Offers</li>
-            <li><input type="radio" value="Updates"> Extra News Updates</li>
-            <li><input type="radio" value="alerts"> Action Alerts</li>
+            <li><input name="member" type="radio" value="Updates"> Sure</li>
+            <li><input name="member" type="radio" value="Updates"> Sorry, Just Me</li>
+            
         </ul>
+        </div>
+        <div class="section-container">
+            
+            <h4>3: Please select your interests. </h4>
+            
+            <div class="rightTab">
+              <ul>
+                <li class="checkbox"><label><input name="interest" value="1" type="checkbox"> Special Offers</label></li>
+                <li class="checkbox"><input name="interest" value="2" type="checkbox">Extra News</li>
+                <li class="checkbox"><label><input name="interest" value="3" type="checkbox">Action Alert</label></li>
+                
+                
+              </ul>
+    
+          </div>
+        
+    
     </div>
           <div class="section-container">
             <h4>4: Comments.</h4>
-            <input id="comment" type="comment" value="Comments or Suggestions">
+            <textarea id="comment" type="comment" value="Comments or Suggestions">
+            </textarea>
           </div>
-          
               <button id="submit">Submit</button>
           
 
